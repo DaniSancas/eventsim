@@ -1,0 +1,8 @@
+---
+services:
+  eventsim:
+    build: .
+    container_name: eventsim
+    volumes:
+      - ./output:/opt/eventsim/output
+    tty: true
